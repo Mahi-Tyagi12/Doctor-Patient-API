@@ -1,0 +1,11 @@
+com/xcelore/DoctorController.class
+com/xcelore/DoctorRepository.class
+com/xcelore/HomeController.class
+com/xcelore/DoctorService.class
+com/xcelore/CorsConfig.class
+com/xcelore/Patient.class
+com/xcelore/PatientService.class
+com/xcelore/XceloreApplication.class
+com/xcelore/PatientRepository.class
+com/xcelore/Doctor.class
+com/xcelore/PatientController.class
