@@ -20,11 +20,14 @@ Run the application:
 mvn spring-boot: run
 
 📬 API Endpoints
-POST /addDoctor: Add a new doctor.
+POST /addDoctor:
+Add a new doctor.
 
-POST /addPatient: Add a new patient.
+POST /addPatient:
+Add a new patient.
 
-GET /suggestDoctor/{patientId}: Suggest doctors based on patient ID.
+GET /suggestDoctor/{patientId}: 
+Suggest doctors based on patient ID.
 
 📂 Postman Collection
 The Postman collection used for testing the APIs is included in the repository as XceloreDoctorPatientAPI.postman_collection.json.
