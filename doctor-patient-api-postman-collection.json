@@ -1,0 +1,108 @@
+{
+    "info": {
+        "name": "Doctor Patient API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Create Doctor",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Dr. Rahul\",\n    \"city\": \"Delhi\",\n    \"email\": \"rahul@example.com\",\n    \"phoneNumber\": \"9876543210\",\n    \"speciality\": \"Orthopaedic\"\n}"
+                },
+                "url": {
+                    "raw": "https://musical-space-palm-tree-vx7xvjqjp6v2w95v-8080.app.github.dev/doctors",
+                    "protocol": "https",
+                    "host": [
+                        "musical-space-palm-tree-vx7xvjqjp6v2w95v-8080",
+                        "app",
+                        "github",
+                        "dev"
+                    ],
+                    "path": [
+                        "doctors"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get All Doctors",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://musical-space-palm-tree-vx7xvjqjp6v2w95v-8080.app.github.dev/doctors",
+                    "protocol": "https",
+                    "host": [
+                        "musical-space-palm-tree-vx7xvjqjp6v2w95v-8080",
+                        "app",
+                        "github",
+                        "dev"
+                    ],
+                    "path": [
+                        "doctors"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Create Patient",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"John Doe\",\n    \"city\": \"Delhi\",\n    \"email\": \"john@example.com\",\n    \"phoneNumber\": \"9876543210\",\n    \"symptom\": \"Arthritis\"\n}"
+                },
+                "url": {
+                    "raw": "https://musical-space-palm-tree-vx7xvjqjp6v2w95v-8080.app.github.dev/patients",
+                    "protocol": "https",
+                    "host": [
+                        "musical-space-palm-tree-vx7xvjqjp6v2w95v-8080",
+                        "app",
+                        "github",
+                        "dev"
+                    ],
+                    "path": [
+                        "patients"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get All Patients",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://musical-space-palm-tree-vx7xvjqjp6v2w95v-8080.app.github.dev/patients",
+                    "protocol": "https",
+                    "host": [
+                        "musical-space-palm-tree-vx7xvjqjp6v2w95v-8080",
+                        "app",
+                        "github",
+                        "dev"
+                    ],
+                    "path": [
+                        "patients"
+                    ]
+                }
+            }
+        }
+    ]
+}
